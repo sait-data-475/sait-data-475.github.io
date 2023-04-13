@@ -1,0 +1,48 @@
+site_name: sait-data-475
+nav:
+  - Home: index.md
+theme:
+  name: material
+  favicon: https://raw.githubusercontent.com/sait-data-475/logo/main/logo.png
+  logo: https://raw.githubusercontent.com/sait-data-475/logo/main/logo.png
+  font:
+    text: Roboto
+  palette:
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - header.autohide
+plugins:
+  - search
+  - tags
+  - glightbox:
+      auto_caption: True
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
