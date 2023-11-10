@@ -1,6 +1,7 @@
 site_name: sait-data-475
 nav:
   - Home: index.md
+  - FAQ: faq.md
 theme:
   name: material
   favicon: https://raw.githubusercontent.com/sait-data-475/logo/main/logo.png
@@ -22,6 +23,8 @@ theme:
         name: Switch to light mode
   features:
     - header.autohide
+    - navigation.top
+    - content.code.copy
 plugins:
   - search
   - tags
@@ -36,6 +39,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
+  - footnotes
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.snippets
