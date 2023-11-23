@@ -25,6 +25,7 @@ theme:
   features:
     - header.autohide
     - navigation.top
+    - navigation.footer
     - content.code.copy
 plugins:
   - search
