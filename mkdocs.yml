@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - Install: install.md
   - FAQ: faq.md
+  - Extra: extra.md
 theme:
   name: material
   favicon: https://raw.githubusercontent.com/sait-data-475/logo/main/logo.png
@@ -38,12 +39,15 @@ plugins:
       type: timeago
       enable_creation_date: true
 markdown_extensions:
+  - def_list
   - attr_list
   - md_in_html
   - admonition
   - footnotes
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
