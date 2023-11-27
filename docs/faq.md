@@ -41,8 +41,8 @@ pip install -r requirements.txt
 
 ### Use VS Code
 
-> Make the change the VS Code setting to enable the **Create Environment...** button.
-> You only need to modify this setting once.
+> Make a change in the VS Code setting to enable the **Create Environment...** button.
+> You only need to modify this setting **once**.
 >
 > Go to **Manage** then **Settings**
 >
