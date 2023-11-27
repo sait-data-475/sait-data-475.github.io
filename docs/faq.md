@@ -28,7 +28,9 @@ To create a `requirements.txt` file, you can navigate to your Python project dir
 
 `pip freeze > requirements.txt`
 
-### Manual
+### Use manual commands
+
+Run the following commands in order to create a virtual environment.
 
 ```
 python -m venv .venv
@@ -38,6 +40,31 @@ pip install -r requirements.txt
 ```
 
 ### Use VS Code
+
+<!-- prettier-ignore -->
+1. Locate the `requirements.txt` file and the **Create Environment...** button on the bottom right.
+
+    ![](./assets/vscode-venv-1.png)
+
+2. Choose **Venv**.
+
+    ![](./assets/vscode-venv-2.png)
+
+3. Select your Python interpreter from the dropdown list.
+
+    ![](./assets/vscode-venv-3.png)
+
+4. Check the `requirements.txt` file and press **OK**
+
+    ![](./assets/vscode-venv-4.png)
+
+5. VS Code will handle the virtual environment creation behind the scene. It run the [manual steps](#use-manual-commands) aforementioned.
+
+    ![](./assets/vscode-venv-5.png)
+
+6. After the virtual environment is created, VS Code also selects to use it automatically.
+
+    ![](./assets/vscode-venv-6.png)
 
 ## :interrobang: SSL Error when using [`fetch_openml`](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_openml.html)
 
