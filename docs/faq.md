@@ -41,6 +41,19 @@ pip install -r requirements.txt
 
 ### Use VS Code
 
+> Make the change the VS Code setting to enable the **Create Environment...** button.
+> You only need to modify this setting once.
+>
+> Go to **Manage** then **Settings**
+>
+> ![](./assets/change-setting-1.png)
+>
+> Type **create env** in the search bar then set **Python > Create Environment Content Button** to **show**
+>
+> ![](./assets/change-setting-2.png)
+
+For each new Python project, simply following the steps below.
+
 <!-- prettier-ignore -->
 1. Locate the `requirements.txt` file and the **Create Environment...** button on the bottom right.
 
