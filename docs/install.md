@@ -7,14 +7,14 @@ A list of software to install
 <!-- prettier-ignore -->
 1. Go to [Python 3.9.13](https://www.python.org/downloads/release/python-3913/) and download the [Windows installer (64-bit)](https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe).
 
-2. Execute the installer and make sure to check the box underneath that says **Add Python 3.9 to path**
+2. Execute the installer and make sure to check the box underneath that says **Add Python 3.9 to path**.
 
     ![](./assets/python-install-1.png)
 
     !!! note
         If your username contains a space, use a location that doesn't spaces in it.
 
-3. Also **Disable path length limit**
+3. Also **Disable path length limit**.
 
     ![](./assets/python-install-2.png)
 
@@ -27,7 +27,7 @@ A list of software to install
 
     ![](./assets/vscode-install-1.png)
 
-3. Check all the boxes in the **Other** section
+3. Check all the boxes in the **Other** section.
 
     ![](./assets/vscode-install-2.png)
 
@@ -41,6 +41,7 @@ A list of software to install
 
       - python
       - indent-rainbow
+      - jupyter
 
     ![](./assets/vscode-install-4.png)
 
@@ -84,3 +85,12 @@ A list of software to install
 3. Then **Install**.
 
     ![](./assets/git-install-2.png)
+
+## :simple-windowsterminal: Windows Terminal
+
+<!-- prettier-ignore -->
+1. Open **Microsoft Store** from start menu and look for "Windows Terminal".
+
+    ![](./assets/windows-terminal.png)
+
+2. **Get** the application.

@@ -67,7 +67,7 @@ For each new Python project, simply following the steps below.
 
     ![](./assets/vscode-venv-3.png)
 
-4. Check the `requirements.txt` file and press **OK**
+4. Check the `requirements.txt` file and press **OK**.
 
     ![](./assets/vscode-venv-4.png)
 
@@ -78,6 +78,27 @@ For each new Python project, simply following the steps below.
 6. After the virtual environment is created, VS Code also selects to use it automatically.
 
     ![](./assets/vscode-venv-6.png)
+
+### Execution Policy
+
+**ONLY** if you encounter an error about VS Code not being able to activate the virtual environment, Use the following steps to resolve the issue.
+
+<!-- prettier-ignore -->
+1. Terminate all VS Code windows.
+
+2. Open PowerShell in administrator mode.
+
+    ![](./assets/admin-mode.png)
+
+3. Copy/Paste and run the following command.
+
+    ```
+    Set-ExecutionPolicy Unrestricted
+    ```
+
+The PowerShell command `Set-ExecutionPolicy` is used to change the execution policy for PowerShell scripts on a system. The execution policy determines the level of restriction for running PowerShell scripts and is a security feature designed to prevent the execution of potentially harmful scripts.
+
+When you set the execution policy to "Unrestricted", it allows the execution of all scripts without any restrictions. This means that any script, regardless of its source or signature, can be run on the system without prompting for permission.
 
 ## :interrobang: SSL Error when using [`fetch_openml`](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_openml.html)
 
