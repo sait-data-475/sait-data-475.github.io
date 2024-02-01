@@ -8,7 +8,7 @@ A list of helpful resources
 
 [Kattis Problem Archive](https://open.kattis.com/)
 
-: Open Kattis is a platform that offers thousands of programming problems to solve. It is a public version of the Kattis contest management system. The platform is designed to aid computer science courses and host prestigious competitions, like ICPC World Finals1. You can register, browse, and submit your solutions, and see the scores and rankings of other users and universities.
+: Open Kattis is a platform that offers thousands of programming problems to solve. It is a public version of the Kattis contest management system. The platform is designed to aid computer science courses and host prestigious competitions, like ICPC World Finals. You can register, browse, and submit your solutions, and see the scores and rankings of other users and universities.
 
     > Contribute to boost SAIT's [ranking](https://open.kattis.com/countries/CAN/AB).
 
