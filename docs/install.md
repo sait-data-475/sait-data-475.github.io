@@ -76,7 +76,7 @@ A list of software to install
 ## :simple-git: Git
 
 <!-- prettier-ignore -->
-1. Go to [Git - Downloads](https://git-scm.com/downloads) and get [installer](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe).
+1. Go to [Git - Downloads](https://git-scm.com/downloads) and get [installer](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe).
 
 2. Simply click **Next** all the way.
 
