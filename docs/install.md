@@ -5,18 +5,14 @@ A list of software to install
 ## :simple-python: Python
 
 <!-- prettier-ignore -->
-1. Go to [Python 3.9.13](https://www.python.org/downloads/release/python-3913/) and download the [Windows installer (64-bit)](https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe).
+1. Go to [Python 3.12.5](https://www.python.org/downloads/release/python-3125/) and download the [Windows installer (64-bit)](https://www.python.org/ftp/python/3.12.5/python-3.12.5-amd64.exe).
 
-2. Execute the installer and make sure to check the box underneath that says **Add Python 3.9 to path**.
+2. Execute the installer and make sure to check the box underneath that says **Add python.exe to path**.
 
     ![](./assets/python-install-1.png)
 
     !!! note
         If your username contains a space, use a location that doesn't spaces in it.
-
-3. Also **Disable path length limit**.
-
-    ![](./assets/python-install-2.png)
 
 ## :simple-visualstudiocode: Visual Studio Code
 
