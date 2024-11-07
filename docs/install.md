@@ -14,7 +14,7 @@ A list of software to install
     !!! note
         If your username contains a space, use a location that doesn't spaces in it.
 
-## :simple-visualstudiocode: Visual Studio Code
+## :material-microsoft-visual-studio-code: Visual Studio Code
 
 <!-- prettier-ignore -->
 1. Go to [Visual Studio Code](https://code.visualstudio.com/) and download [VS Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user).
@@ -82,7 +82,7 @@ A list of software to install
 
     ![](./assets/git-install-2.png)
 
-## :simple-windowsterminal: Windows Terminal
+## :simple-gnometerminal: Windows Terminal
 
 <!-- prettier-ignore -->
 1. Open **Microsoft Store** from start menu and look for "Windows Terminal".
